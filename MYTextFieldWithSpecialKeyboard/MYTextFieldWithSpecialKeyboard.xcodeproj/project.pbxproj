@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1462E341E4D6025000ACAF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1462E331E4D6025000ACAF7 /* main.m */; };
+		C1462E371E4D6025000ACAF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1462E361E4D6025000ACAF7 /* AppDelegate.m */; };
+		C1462E3A1E4D6025000ACAF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1462E391E4D6025000ACAF7 /* ViewController.m */; };
+		C1462E3D1E4D6025000ACAF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1462E3B1E4D6025000ACAF7 /* Main.storyboard */; };
+		C1462E3F1E4D6025000ACAF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1462E3E1E4D6025000ACAF7 /* Assets.xcassets */; };
+		C1462E421E4D6025000ACAF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1462E401E4D6025000ACAF7 /* LaunchScreen.storyboard */; };
+		C1462E4E1E4D6138000ACAF7 /* MYCustomKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C1462E4B1E4D6138000ACAF7 /* MYCustomKeyboard.m */; };
+		C1462E4F1E4D6138000ACAF7 /* MYCustomKeyboardTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C1462E4D1E4D6138000ACAF7 /* MYCustomKeyboardTextField.m */; };
+		C1462E531E4D6330000ACAF7 /* backspace@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1462E511E4D6330000ACAF7 /* backspace@2x.png */; };
+		C1462E541E4D6330000ACAF7 /* backspace@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1462E521E4D6330000ACAF7 /* backspace@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1462E2F1E4D6025000ACAF7 /* MYTextFieldWithSpecialKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYTextFieldWithSpecialKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1462E331E4D6025000ACAF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1462E351E4D6025000ACAF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1462E361E4D6025000ACAF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1462E381E4D6025000ACAF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1462E391E4D6025000ACAF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1462E3C1E4D6025000ACAF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1462E3E1E4D6025000ACAF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1462E411E4D6025000ACAF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1462E431E4D6025000ACAF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1462E4A1E4D6138000ACAF7 /* MYCustomKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCustomKeyboard.h; sourceTree = "<group>"; };
+		C1462E4B1E4D6138000ACAF7 /* MYCustomKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCustomKeyboard.m; sourceTree = "<group>"; };
+		C1462E4C1E4D6138000ACAF7 /* MYCustomKeyboardTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCustomKeyboardTextField.h; sourceTree = "<group>"; };
+		C1462E4D1E4D6138000ACAF7 /* MYCustomKeyboardTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCustomKeyboardTextField.m; sourceTree = "<group>"; };
+		C1462E511E4D6330000ACAF7 /* backspace@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backspace@2x.png"; sourceTree = "<group>"; };
+		C1462E521E4D6330000ACAF7 /* backspace@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backspace@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1462E2C1E4D6024000ACAF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1462E261E4D6024000ACAF7 = {
+			isa = PBXGroup;
+			children = (
+				C1462E311E4D6025000ACAF7 /* MYTextFieldWithSpecialKeyboard */,
+				C1462E301E4D6025000ACAF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1462E301E4D6025000ACAF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1462E2F1E4D6025000ACAF7 /* MYTextFieldWithSpecialKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1462E311E4D6025000ACAF7 /* MYTextFieldWithSpecialKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C1462E501E4D6330000ACAF7 /* Images */,
+				C1462E491E4D6138000ACAF7 /* Main */,
+				C1462E351E4D6025000ACAF7 /* AppDelegate.h */,
+				C1462E361E4D6025000ACAF7 /* AppDelegate.m */,
+				C1462E381E4D6025000ACAF7 /* ViewController.h */,
+				C1462E391E4D6025000ACAF7 /* ViewController.m */,
+				C1462E3B1E4D6025000ACAF7 /* Main.storyboard */,
+				C1462E3E1E4D6025000ACAF7 /* Assets.xcassets */,
+				C1462E401E4D6025000ACAF7 /* LaunchScreen.storyboard */,
+				C1462E431E4D6025000ACAF7 /* Info.plist */,
+				C1462E321E4D6025000ACAF7 /* Supporting Files */,
+			);
+			path = MYTextFieldWithSpecialKeyboard;
+			sourceTree = "<group>";
+		};
+		C1462E321E4D6025000ACAF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1462E331E4D6025000ACAF7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1462E491E4D6138000ACAF7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C1462E4A1E4D6138000ACAF7 /* MYCustomKeyboard.h */,
+				C1462E4B1E4D6138000ACAF7 /* MYCustomKeyboard.m */,
+				C1462E4C1E4D6138000ACAF7 /* MYCustomKeyboardTextField.h */,
+				C1462E4D1E4D6138000ACAF7 /* MYCustomKeyboardTextField.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C1462E501E4D6330000ACAF7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C1462E511E4D6330000ACAF7 /* backspace@2x.png */,
+				C1462E521E4D6330000ACAF7 /* backspace@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1462E2E1E4D6024000ACAF7 /* MYTextFieldWithSpecialKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1462E461E4D6025000ACAF7 /* Build configuration list for PBXNativeTarget "MYTextFieldWithSpecialKeyboard" */;
+			buildPhases = (
+				C1462E2B1E4D6024000ACAF7 /* Sources */,
+				C1462E2C1E4D6024000ACAF7 /* Frameworks */,
+				C1462E2D1E4D6024000ACAF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MYTextFieldWithSpecialKeyboard;
+			productName = MYTextFieldWithSpecialKeyboard;
+			productReference = C1462E2F1E4D6025000ACAF7 /* MYTextFieldWithSpecialKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1462E271E4D6024000ACAF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MayerF;
+				TargetAttributes = {
+					C1462E2E1E4D6024000ACAF7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C1462E2A1E4D6024000ACAF7 /* Build configuration list for PBXProject "MYTextFieldWithSpecialKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1462E261E4D6024000ACAF7;
+			productRefGroup = C1462E301E4D6025000ACAF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1462E2E1E4D6024000ACAF7 /* MYTextFieldWithSpecialKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1462E2D1E4D6024000ACAF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1462E421E4D6025000ACAF7 /* LaunchScreen.storyboard in Resources */,
+				C1462E3F1E4D6025000ACAF7 /* Assets.xcassets in Resources */,
+				C1462E531E4D6330000ACAF7 /* backspace@2x.png in Resources */,
+				C1462E3D1E4D6025000ACAF7 /* Main.storyboard in Resources */,
+				C1462E541E4D6330000ACAF7 /* backspace@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1462E2B1E4D6024000ACAF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1462E3A1E4D6025000ACAF7 /* ViewController.m in Sources */,
+				C1462E4F1E4D6138000ACAF7 /* MYCustomKeyboardTextField.m in Sources */,
+				C1462E371E4D6025000ACAF7 /* AppDelegate.m in Sources */,
+				C1462E341E4D6025000ACAF7 /* main.m in Sources */,
+				C1462E4E1E4D6138000ACAF7 /* MYCustomKeyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1462E3B1E4D6025000ACAF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1462E3C1E4D6025000ACAF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1462E401E4D6025000ACAF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1462E411E4D6025000ACAF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1462E441E4D6025000ACAF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1462E451E4D6025000ACAF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1462E471E4D6025000ACAF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MYTextFieldWithSpecialKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51tongcai.MYTextFieldWithSpecialKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1462E481E4D6025000ACAF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MYTextFieldWithSpecialKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51tongcai.MYTextFieldWithSpecialKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1462E2A1E4D6024000ACAF7 /* Build configuration list for PBXProject "MYTextFieldWithSpecialKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1462E441E4D6025000ACAF7 /* Debug */,
+				C1462E451E4D6025000ACAF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1462E461E4D6025000ACAF7 /* Build configuration list for PBXNativeTarget "MYTextFieldWithSpecialKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1462E471E4D6025000ACAF7 /* Debug */,
+				C1462E481E4D6025000ACAF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1462E271E4D6024000ACAF7 /* Project object */;
+}
